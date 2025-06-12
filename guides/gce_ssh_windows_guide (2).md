@@ -114,6 +114,7 @@ ssh -J your_username@logins.cels.anl.gov your_username@homes.cels.anl.gov
 2. Click the **bottom-left green icon** → "Connect to Host".
 
 ![VSCode Bottom-left Icon](images/page4_img1.png)
+![VSCode "Connect to Host" Menu](images/page4_img2.png)
 
 3. Select:
 
@@ -121,15 +122,11 @@ ssh -J your_username@logins.cels.anl.gov your_username@homes.cels.anl.gov
    compute-gce
    ```
 
-![VSCode "Connect to Host" Menu](images/page4_img2.png)
 
 4. Follow prompts → enter your passphrase.  
 5. Once connected:
    - Click **Open Folder**.  
    - Navigate to your GCE home directory and start working!
-
-![VSCode Host Selection](images/page5_img1.png)
-![VSCode Open Folder](images/page5_img2.png)
 
 ---
 
@@ -156,7 +153,7 @@ Get-Service ssh-agent
 
 - If `Running` → skip next steps.  
 - If `Stopped` or `Disabled` → proceed.
-
+![VSCode Host Selection](images/page5_img1.png)
 #### 4.2.2 Verify OpenSSH Installation
 
 ```powershell
@@ -170,7 +167,7 @@ Get-WindowsCapability -Online | Where-Object Name -like 'OpenSSH*'
     Add-WindowsCapability -Online -Name OpenSSH.Client~~~~0.0.1.0
     Add-WindowsCapability -Online -Name OpenSSH.Server~~~~0.0.1.0
     ```
-
+![VSCode Open Folder](images/page5_img2.png)
     - If `RestartNeeded : True` → restart your computer.
 
 #### 4.2.3 Enable ssh-agent Service
