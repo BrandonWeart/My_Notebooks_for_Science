@@ -20,13 +20,19 @@ Brief paragraph explaining:
 
 
 ## Folder Contents
-- '''/BAMS Figures''' - A folder with two notebooks showing BAMS figures I made for Collis et al. 2026 and Muradyan et al. 2026
-- '''/Field Campaign Analysis''' - Analysis of wind sonde and radiosonde data from the Urban Canyons field campaign. Some of these figures may also appear in Collis et al. 2026
-- '''/Lake Breeze CV Stuff''' - Contains a notebook containing some HRRR lake breeze detection using basic computer vision techniques on convergence (Metpy used!!!)
-- '''/Main Project (Simple ML stuff)''' - Contains notebooks exploring linear regression and shallow neural networks to predict radar-derived precipitation.
-- '''/Radar Vertical Column''' - Contains a notebook using Py-ART to explore radar vertical column extraction and feature detection.
-- '''/Side Projects During Internship''' - A notebook using Herbie and MetPy to plot Theta-E from HRRR data
-- I also have my 3 major deliverables from my SULI internship (Paper, Poster, General audience abstract)
+
+- `/BAMS Figures` — Two notebooks showing BAMS figures I made for *Collis et al.* (2026) and *Muradyan et al.* (2026).
+- `/Field Campaign Analysis` — Analysis of wind sonde and radiosonde data from the Urban Canyons field campaign. Some figures may also appear in *Collis et al.* (2026).
+- `/Lake Breeze CV Stuff` — Notebook with HRRR lake-breeze detection using basic computer vision techniques on convergence (MetPy used).
+- `/Main Project (Simple ML stuff)` — Notebooks exploring linear regression and shallow neural networks to predict radar-derived precipitation.
+- `/Radar Vertical Column` — Notebook using Py-ART to explore radar vertical column extraction and feature detection.
+- `/Side Projects During Internship` — Notebook using Herbie and MetPy to plot Theta-E from HRRR data.
+
+### SULI Internship Deliverables
+
+- Paper (`Weart-Brandon-SULI-EVS-Paper.pdf`)
+- Poster (`Weart-Brandon-SULI-EVS_Final_Poster.pdf`)
+- General-audience abstract (`General Audience Abstract.pdf`)
 
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
