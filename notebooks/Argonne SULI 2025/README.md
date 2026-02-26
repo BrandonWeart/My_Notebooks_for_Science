@@ -15,4 +15,21 @@ Brief paragraph explaining:
 - Radar-derived precipitation suffers from major biases due to poor representation of precipitation size distribution and indirect observation of actual hydrometeors. The Z-R relationships currently available eseentially cast a wide net to ***roughly*** cover all precip shapes and sizes, leaving much room for error in precipitation estimation. It is possible that a data-driven approach using simple machine learning models could provide a more tailored Z-R relationship on an event basis, which would enable better radar-derived precipitation estimation.
 - Community Research on Climate and Urban Science (CROCUS) field campaign data from individual observation nodes, along with NEXRAD data from KLOT radar are used in this project.
 - This folder also includes other exploratory branches taken by me during the project to just mess with machine learning, computer vision, radar files, and to make figures all from the same type of data. Heavy use of NetCDF, GRIB, as well as some use of MetPy for deriving specific parameters such as Theta-E and convergence and working with units and other calculations.
+
+- During this internship, I was tasked with creating figures for two BAMS papers (Currently in review), which I have included the notebooks for in the BAMS figure subfolder of the repo.
+
+
+## Folder Contents
+- '''/BAMS Figures''' - A folder with two notebooks showing BAMS figures I made for Collis et al. 2026 and Muradyan et al. 2026
+- '''/Field Campaign Analysis''' - Analysis of wind sonde and radiosonde data from the Urban Canyons field campaign. Some of these figures may also appear in Collis et al. 2026
+- '''/Lake Breeze CV Stuff''' - Contains a notebook containing some HRRR lake breeze detection using basic computer vision techniques on convergence (Metpy used!!!)
+- '''/Main Project (Simple ML stuff)''' - Contains notebooks exploring linear regression and shallow neural networks to predict radar-derived precipitation.
+- '''/Radar Vertical Column''' - Contains a notebook using Py-ART to explore radar vertical column extraction and feature detection.
+- '''/Side Projects During Internship''' - A notebook using Herbie and MetPy to plot Theta-E from HRRR data
+- I also have my 3 major deliverables from my SULI internship (Paper, Poster, General audience abstract)
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Enjoy!
 ---
+
